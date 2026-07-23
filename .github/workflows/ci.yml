@@ -22,4 +22,4 @@ jobs:
         working-directory: ./backend  # FIX: directorio agregado
 
       - name: Mostrar SHA del commit
-        run: echo "SHA: ${{ github.sha }}"  # FIX: context correcto
+        run: 'echo "SHA: ${{ github.sha }}"'  # FIX: context correcto
