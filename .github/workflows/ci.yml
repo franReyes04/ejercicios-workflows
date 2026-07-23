@@ -1,4 +1,4 @@
-ame: CI Ecommerce
+name: CI Ecommerce
 
 on:
   push:
